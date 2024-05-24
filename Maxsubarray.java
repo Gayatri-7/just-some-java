@@ -15,7 +15,7 @@ public class Maxsubarray{
                 System.out.print(" sum: "+ sum);
                 System.out.println();
                 tot++;
-                 if (sum > maxSum) {
+                 if (sum > maxSum) { // just a line to to calc max sum 
                     maxSum = sum;
                 }
             }
